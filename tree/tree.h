@@ -1,6 +1,8 @@
-typedef char data_t;
+#ifndef _TREE_H__
+#define _TREE_H__
+typedef char datatype;
 typedef struct rootnode {
-	data_t data;
+	datatype data;
 	struct rootnode * left;
     struct rootnode * right;
 }bitree;
@@ -10,4 +12,4 @@ void preorder(bitree * r);
 void inorder(bitree *r);
 void posorder(bitree * r);
 void levelorder(bitree *r);
-
+#endif

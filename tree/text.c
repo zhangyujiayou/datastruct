@@ -14,6 +14,7 @@ int main(int argc , char *argv[]) {
 	printf("posorder:");
 	posorder(root);
 	puts("");
+	levelorder(root);
 	return 0;
 }
 
